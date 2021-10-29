@@ -1,0 +1,17 @@
+Date: 10/15/21
+
+What have we worked on?
+- Filtering through websites and collecting data that pertains to Brazilians or Boston, MA
+
+What will we be working on next?
+- narrowing down the csv files we plan to use
+- converting pdf to csv files where we cannot find preexisting csv files
+- preprocessing this data into a dataframe
+- answering one analysis question about the data
+
+Have we run into any issues? 
+- Issue we are having is finding data about Boston, MA that specifies information for Brazilians specifically and not just Latin America as a whole
+
+Have we talked to the client recently? When are we meeting with them next?
+- We will be meeting again with the client this upcoming Friday (10/22/21)
+
