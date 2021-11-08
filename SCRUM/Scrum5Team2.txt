@@ -1,0 +1,21 @@
+Date: 11/5/21
+
+What have we worked on?
+- made a list of tasks to complete for deliverable 1
+- got the data from the client and working through that understanding what is in it 
+- brainstormed ways to use data science "to tell a story about the Brazilian community" (from the Client)
+- got approved by client for our plans to manipulate the data and make model predictions
+- working on cleaning the data and visualizations 
+
+What will we be working on next?
+- finish preprocessing the data given for years 2005-2018
+- finish visualizations 
+- begin to explore/implement ideas brainstormed and approved by client for manipulating the data
+
+Have we run into any issues? 
+- We finally received all of the data from the client as of 11/5/21 and now we are working on deliverable 1
+
+Have we talked to the client recently? When are we meeting with them next?
+- We met with the client on 11/1 and 11/5. We revised the scope of the project and received the data
+- We will meet again 11/19 and we are in communication on slack. 
+
