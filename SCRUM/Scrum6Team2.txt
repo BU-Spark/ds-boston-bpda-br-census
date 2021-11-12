@@ -1,0 +1,22 @@
+Date: 11/12/21
+
+What have we worked on?
+- preprocessed all the data by categories through the years 2005-2019
+- made preliminary visualizations of trends in the data
+- redefining project scope for deliverable 2 to focus on the key analysis questions
+- Completed deliverable 1
+- Working on Early Insights presentation
+
+What will we be working on next?
+- finish visualizations 
+- implement the ideas that we brainstormed and got approved by the client for manipulating the data
+
+Have we run into any issues? 
+- Some of the data for housing categories is not usable because of the values entered
+- Not every year includes all 50 US states so this will be an issue that we will need to account for when we want to show trends in the 
+    US as a whole 
+
+Have we talked to the client recently? When are we meeting with them next?
+- We met with the client on 11/5. We revised the scope of the project and received the data
+- We will meet again 11/19 and we are in communication on slack. 
+
