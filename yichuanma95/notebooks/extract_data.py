@@ -1,8 +1,9 @@
 import pandas as pd
 
-def extract_data(start, end):
-    end += 1
-    dfs = [generate_subdf(year, start, end) for year in range(2012, 2019+1)]
+def extract_data(start_row, end_row, start_year=2005, end_year=2019):
+    end_row += 1
+    dfs = [generate_subdf(year, start_row, end_row) for year in range(start_year,
+        end_year+1)]
     df = pd.concat(dfs)
     df.drop(columns=['Unnamed: 49', 'Unnamed: 50', 'Unnamed: 51',
         'Unnamed: 52'], inplace=True)
@@ -10,7 +11,7 @@ def extract_data(start, end):
     return df
 
 def generate_subdf(year, start, end):
-    dfYear = pd.read_excel('../data/Brazilian Immigrants.xlsx',
+    dfYear = pd.read_excel('../../data/Brazilian Immigrants.xlsx',
             sheet_name=str(year))
     subDf = dfYear[start:end]
     subDf = subDf.rename(columns={'Unnamed: 0': 'Type', 'State_Code': 'Type',
