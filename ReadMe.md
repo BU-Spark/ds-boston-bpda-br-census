@@ -9,6 +9,9 @@ Our goal is to analyze data from the US Census platform to track the Brazilian c
 
 This could be done exploring what variables might correlate with others or running hypothesis tests to see if there might be some defining event that might have resulted in some change. The client wants visualizations created to contribute towards the insight and broader analysis on what the Brazilian community looks like and how it has changed over time.
 
+# Dependencies
+To process the data, we used **Pandas** and **NumPy**. To perform our analyses, we used the following Machine Learning libraries: **Sklearn**, **Scipy**, and **Statsmodel.API**. To produce our visualizations, we used **Matplotlib.Pyplot** and **Seaborn**. Please make sure you have the dependencies installed before running any code in this repository.
+
 # How to Run Code
 
 1. use jupyter notebook or google collab
@@ -51,3 +54,7 @@ Folder “preprocessing”:
 
 folder “YearOfEntry” -> folder “.ipynb_checkpoints” 
 -> “Year-of-Entry-checkpoint.ipynb”
+
+**Data**
+The data that we used for this project is located in the directory data. Our code automatically opens the files in the directory to extract data.
+
