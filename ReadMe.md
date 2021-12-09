@@ -56,5 +56,13 @@ folder “YearOfEntry” -> folder “.ipynb_checkpoints”
 -> “Year-of-Entry-checkpoint.ipynb”
 
 **Data**
+
+
 The data that we used for this project is located in the directory data. Our code automatically opens the files in the directory to extract data.
 
+# Future Work
+
+Our client has provided us with additional data on the Brazilian population and small business owners, and we will perform similar analyses on this new data to see if we can draw additional conclusions. Additionally, we will explore the conclusions that we found in this project in greater depth to see if they are real trends or just coincidences.
+
+
+## Thank You To The BPDA and BU Spark!
