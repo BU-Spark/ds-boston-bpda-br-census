@@ -1,0 +1,22 @@
+Date: 10/29/21
+
+What have we worked on?
+- Searching for data about the census in Brazilians in Boston
+- contacted project manager and professor Crovella about issue with finding and getting data from the client
+- met with Client about issue collecting data
+
+What will we be working on next?
+- We received 2019 data on all states in the US from the cliebt
+- we will be preprocessing this data from 2019 into a dataframe
+- answering one analysis question about the data and making bar charts
+
+Have we run into any issues? 
+- Issue we are having is finding data about Boston, MA that specifies information for Brazilians specifically and not just Latin America as a whole
+- Getting data from the client, reached out for several weeks but we have only received 2019 data (no years when the census was taken)
+
+Have we talked to the client recently? When are we meeting with them next?
+- We met with the client on Friday (10/22/21) expressed our issues and he said they will get the data we need to us during the week of 10/25
+- We received the 2019 data from the client end of the day Wednesday 10/27/21 and they said we will recieve information for the years 2005-2018 
+ but we have not received this information or an indication of when we will receive the years 2005-2018.
+
+
