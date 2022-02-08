@@ -1,11 +1,12 @@
 # Author: Rishab 
-name: Add Collaborators
+name: Add Collaborators v1.1
 
 on: 
   push:
     branches:
       - master
       - main
+      - dev
 
 jobs:
   add-collaborators:
@@ -41,7 +42,10 @@ jobs:
                             username: line,
                             permission: 'push'
                             });
+                } else { 
+                  core.setFailed(err.toString())
                 }
+
               }
             });
 
