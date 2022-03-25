@@ -2,8 +2,8 @@
 
 ### Project: BPDA | Brazilian Community Census Analysis
 
-| Team Member: |      |
-| :--- | ---- |
+| Team Member:   |                 |
+|:-------------- | --------------- |
 | Zhihao Gu      | zhihao97@bu.edu |
 | Chenyang Zhang | zhangcy@bu.edu  |
 | Minghui Yang   | yjasmine@bu.edu |
@@ -30,15 +30,20 @@ As client required, inorder to show differences between state and time by visual
   * Employment Information
   * Income and poverty Status
 * Plot data by state
-  * Marital Status
+  
+  We show an example of plotting the change of Marital Status over years. The change of other attributes can also be easily visualized by inputting different parameters.
 
 ## 3 Answer another key question
 
 Show the plots and other analysis data with client.
 
 * Are there variations across states? 
+  
+  > Yes, the population varies a lot across states in almost every areas.
 
-  > Yes, the population varies a lot across states in  almost every areas.
+* Is there a change in the Brazilian Population over time?
+  
+  > Yes, in almost all states, most of the variables change a lot over time.
 
 Many more charts can be found under Team 3 Code folder.
 
@@ -48,6 +53,7 @@ Many more charts can be found under Team 3 Code folder.
 * Show data for most top 10 popular states.
 * Sort data in descending order.
 * Add Sankey graph to show changes over time.
-* Client wants using widgets to show partial(selected) data, hard to implement, need more discuss.
+* Client wants using widgets to show partial (selected) data, hard to implement, need more discuss.
+* Make the visualization of changes over years more interactable.
 
 ## 5 Submit a PR with the above report and modifications to original proposal
