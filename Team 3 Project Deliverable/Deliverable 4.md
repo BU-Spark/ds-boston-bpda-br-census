@@ -14,11 +14,7 @@
 
 
 
-## Visualization
-
-
-
-## Result Analysis
+## Visualization and Result Analysis
 
 
 
