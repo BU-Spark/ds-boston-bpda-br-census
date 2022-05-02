@@ -16,6 +16,20 @@
 
 ## Visualization and Result Analysis
 
+### General
 
+### Age
+
+### Gender
+
+### Income
+
+### Education
+
+### Employment
+
+### Poverty
+
+## Graph/Analysis result
 
 ## Reproduce Instruction

@@ -19,7 +19,7 @@
 * Add pattern detail description/html file for every states.
 
 
-- [ ] ## 3 Answer another key question
+- [x] ## 3 Answer another key question
 
 * Is the Brazilian population getting younger or older？
   * getting old, from average 35 to 38.
