@@ -88,7 +88,7 @@ For about 9 states, the number of bachelor’s degrees or higher are always larg
 
 - Typical patterns
 
-  Here we summarize some typical trend patterns.
+  Here we summarize some typical trend patterns. See [here](../Team%203%20Code/employment/README.md) for detail analysis of all states.
 
   - In some states such as Arizona (AZ), the total number of employees generally rised, despite a few transient descends:
 
