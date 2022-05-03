@@ -12,24 +12,79 @@
 
 ## Data
 
+Data are provided by the BPDA, both per year and per State.
 
+* Preprocessed Brazilian Immigrants data
+  * Population
+  * Age distribute
+  * Gender
+  * Marital status
+  * Citizenship
+  * Education
+  * Employment
+  * Income
+  Data
 
 ## Visualization and Result Analysis
 
-### General
+**For details analysis and graph, please refer to the** ```Team 3 Code/specific type``` . Each folder includes the graph and according analysis file which provide per Sates analysis.
+
+There is also a html file ```Team 3 Project Deliverable/directory.html```  that contains all the plots.
+
+### Population
+
+<img src="png/Population.png" alt="Population"  />
+
+The population is stable from 2005 to 2015, but increase rapidly (about 50% in 5 years) from 2015 to 2019. 
 
 ### Age
 
+![average age](png/average age.png)
+
+The average age in US is around 36, and gradually increasing from 34 to 38 since 2015 to 2019.
+
 ### Gender
+
+![Gender proportion](png/Gender proportion.png)
+
+The gender proportion drops a little from 2005 to 2010 then remains the same from 2010 to 2019  around 45% for male. 
+* The gender proportion by states is not suitable to analysis due to high variance.
 
 ### Income
 
+* Overall pattern in US
+  ![median earning](png/median earning.png)
+  The median personal earning in US increases from 2005 and then drops from 2012 to 2014 then re-increases afterwards.
+  
+* Special patterns
+  * For some states, the median income increases among these years such as MA, CA, CT, FL, MI, NJ, NY, PA, TX.
+    <img src="png/income-california.png" alt="income-california" style="zoom:30%;" />
+    <img src="png/income-florida.png" alt="income-florida" style="zoom:30%;" />
+  
+  * For some states, there is a clear decreasing pattern around 2008 to 2012  such as AZ, CO, CT, MD, NV. The reason we assume is the global financial crisis. But there are states that the income does not decrease, probably due to the industrial structure difference.
+    
+    <img src="png/income-connecticut.png" alt="income-connecticut" style="zoom:30%;" />
+    <img src="png/income-nevada.png" alt="income-nevada" style="zoom:30%;" />
+
+
 ### Education
+
+
 
 ### Employment
 
+
+
 ### Poverty
 
-## Graph/Analysis result
+
 
 ## Reproduce Instruction
+
+* Use Jupyter Notebook to regenerate graphs. Cells run in sequence and make sure the required dependences are installed properly.
+
+* The column and row index in the cdv file must be matched.s
+* To generate graph with different sort order, change the ```sort_by``` parameter and re-run the cell.
+
+
+

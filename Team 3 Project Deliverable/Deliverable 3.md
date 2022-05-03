@@ -25,7 +25,7 @@
   * getting old, from average 35 to 38.
 
 * Male vs female disparity？
-  * 
+  * For all 
 
 * Where people are employed？
   * 
