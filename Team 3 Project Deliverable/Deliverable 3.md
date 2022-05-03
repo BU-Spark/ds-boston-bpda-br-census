@@ -25,7 +25,7 @@
   * getting old, from average 35 to 38.
 
 * Male vs female disparity？
-  * For all 
+  * Male proportion is around 45% in US. Per state analysis is not available
 
 * Where people are employed？
   * 
