@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="11ffb23342a841789e378c3c75daa846" class="chart-container" style="width:775px; height:500px;"></div>
+    <script>
+        var chart_11ffb23342a841789e378c3c75daa846 = echarts.init(
+            document.getElementById('11ffb23342a841789e378c3c75daa846'), 'white', {renderer: 'canvas'});
+        var option_11ffb23342a841789e378c3c75daa846 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "Entered US before 2000",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "stack": "Total",
+            "data": [
+                [
+                    "2005",
+                    15058.0
+                ],
+                [
+                    "2006",
+                    14831.0
+                ],
+                [
+                    "2007",
+                    16868.0
+                ],
+                [
+                    "2008",
+                    14286.0
+                ],
+                [
+                    "2009",
+                    13714.0
+                ],
+                [
+                    "2010",
+                    12108.0
+                ],
+                [
+                    "2011",
+                    14296.0
+                ],
+                [
+                    "2012",
+                    16117.0
+                ],
+                [
+                    "2013",
+                    15483.0
+                ],
+                [
+                    "2014",
+                    12185.0
+                ],
+                [
+                    "2015",
+                    11403.0
+                ],
+                [
+                    "2016",
+                    12430.0
+                ],
+                [
+                    "2017",
+                    10951.0
+                ],
+                [
+                    "2018",
+                    12152.0
+                ],
+                [
+                    "2019",
+                    14476.0
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "Entered US in 2000 or later",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "stack": "Total",
+            "data": [
+                [
+                    "2005",
+                    10945.0
+                ],
+                [
+                    "2006",
+                    7486.0
+                ],
+                [
+                    "2007",
+                    8059.0
+                ],
+                [
+                    "2008",
+                    16178.0
+                ],
+                [
+                    "2009",
+                    11713.0
+                ],
+                [
+                    "2010",
+                    10031.0
+                ],
+                [
+                    "2011",
+                    10072.0
+                ],
+                [
+                    "2012",
+                    8093.0
+                ],
+                [
+                    "2013",
+                    13830.0
+                ],
+                [
+                    "2014",
+                    9739.0
+                ],
+                [
+                    "2015",
+                    9310.0
+                ],
+                [
+                    "2016",
+                    13201.0
+                ],
+                [
+                    "2017",
+                    12930.0
+                ],
+                [
+                    "2018",
+                    17285.0
+                ],
+                [
+                    "2019",
+                    17976.0
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Entered US before 2000",
+                "Entered US in 2000 or later"
+            ],
+            "selected": {
+                "Entered US before 2000": true,
+                "Entered US in 2000 or later": true
+            },
+            "show": true,
+            "top": 40,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": true,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Year of Entry Status for New York States",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": {
+        "show": true,
+        "type": "slider",
+        "realtime": true,
+        "start": 0,
+        "end": 100,
+        "orient": "horizontal",
+        "zoomLock": false,
+        "filterMode": "filter"
+    },
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "top": 175,
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_11ffb23342a841789e378c3c75daa846.setOption(option_11ffb23342a841789e378c3c75daa846);
+    </script>
+</body>
+</html>
