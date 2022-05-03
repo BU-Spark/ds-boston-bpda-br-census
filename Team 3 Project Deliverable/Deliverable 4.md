@@ -23,7 +23,7 @@ Data are provided by the BPDA, both per year and per State.
   * Education
   * Employment
   * Income
-  Data
+    Data
 
 ## Visualization and Result Analysis
 
@@ -48,6 +48,7 @@ The average age in US is around 36, and gradually increasing from 34 to 38 since
 ![Gender proportion](png/Gender proportion.png)
 
 The gender proportion drops a little from 2005 to 2010 then remains the same from 2010 to 2019  around 45% for male. 
+
 * The gender proportion by states is not suitable to analysis due to high variance.
 
 ### Income
@@ -55,9 +56,11 @@ The gender proportion drops a little from 2005 to 2010 then remains the same fro
 * Overall pattern in US
   ![median earning](png/median earning.png)
   The median personal earning in US increases from 2005 and then drops from 2012 to 2014 then re-increases afterwards.
-  
+
 * Special patterns
+  
   * For some states, the median income increases among these years such as MA, CA, CT, FL, MI, NJ, NY, PA, TX.
+    
     <img src="png/income-california.png" alt="income-california" style="zoom:30%;" />
     <img src="png/income-florida.png" alt="income-florida" style="zoom:30%;" />
   
@@ -66,25 +69,24 @@ The gender proportion drops a little from 2005 to 2010 then remains the same fro
     <img src="png/income-connecticut.png" alt="income-connecticut" style="zoom:30%;" />
     <img src="png/income-nevada.png" alt="income-nevada" style="zoom:30%;" />
 
-
 ### Education
 
+For about 9 states, the number of bachelor’s degrees or higher are always
+larger than the other three types and continue to rise. The number of the other
+three types is very stable and is always at a relatively low level. Such as IL, IN, MI.
 
+![income-connecticut](http://blog.minghuiyang1998.com/20220503001946.png)For about 12 states, the number of the four data types fluctuated greatly, and there was not overall upward or downward trend.
+
+![income-nevada](http://blog.minghuiyang1998.com/20220503002531.png)
 
 ### Employment
 
-
-
 ### Poverty
-
-
 
 ## Reproduce Instruction
 
 * Use Jupyter Notebook to regenerate graphs. Cells run in sequence and make sure the required dependences are installed properly.
 
 * The column and row index in the cdv file must be matched.s
+
 * To generate graph with different sort order, change the ```sort_by``` parameter and re-run the cell.
-
-
-
