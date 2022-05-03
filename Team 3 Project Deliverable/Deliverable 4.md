@@ -1,6 +1,6 @@
 # Team 3: Deliverable 4 (Draft Report)
 
-### Project: BPDA | Brazilian Community Census Analysis
+## Project: BPDA | Brazilian Community Census Analysis
 
 | Team Member:   |                 |
 |:-------------- | --------------- |
@@ -27,25 +27,25 @@ Data are provided by the BPDA, both per year and per State.
 
 ## Visualization and Result Analysis
 
-**For details analysis and graph, please refer to the** ```Team 3 Code/specific type``` . Each folder includes the graph and according analysis file which provide per Sates analysis.
+**For details analysis and graph, please refer to the** ```Team 3 Code/specific type```. Each folder includes the graph and according analysis file which provide per Sates analysis.
 
-There is also a html file ```Team 3 Project Deliverable/directory.html```  that contains all the plots.
+There is also a html file ```Team 3 Project Deliverable/directory.html``` that contains all the plots.
 
 ### Population
 
-<img src="png/Population.png" alt="Population"  />
+<img src="png/Population.png" alt="Population" />
 
 The population is stable from 2005 to 2015, but increase rapidly (about 50% in 5 years) from 2015 to 2019. 
 
 ### Age
 
-![average age](png/average age.png)
+![average age](png/average_age.png)
 
 The average age in US is around 36, and gradually increasing from 34 to 38 since 2015 to 2019.
 
 ### Gender
 
-![Gender proportion](png/Gender proportion.png)
+![Gender proportion](png/gender_proportion.png)
 
 The gender proportion drops a little from 2005 to 2010 then remains the same from 2010 to 2019  around 45% for male. 
 
@@ -54,7 +54,9 @@ The gender proportion drops a little from 2005 to 2010 then remains the same fro
 ### Income
 
 * Overall pattern in US
-  ![median earning](png/median earning.png)
+
+  ![median earning](png/median_earning.png)
+
   The median personal earning in US increases from 2005 and then drops from 2012 to 2014 then re-increases afterwards.
 
 * Special patterns
@@ -71,17 +73,39 @@ The gender proportion drops a little from 2005 to 2010 then remains the same fro
 
 ### Education
 
-For about 9 states, the number of bachelor’s degrees or higher are always
-larger than the other three types and continue to rise. The number of the other
-three types is very stable and is always at a relatively low level. Such as IL, IN, MI.
+For about 9 states, the number of bachelor’s degrees or higher are always larger than the other three types and continue to rise. The number of the other three types is very stable and is always at a relatively low level. Such as IL, IN, MI.
 
 ![income-connecticut](http://blog.minghuiyang1998.com/20220503001946.png)For about 12 states, the number of the four data types fluctuated greatly, and there was not overall upward or downward trend.
 
 ![income-nevada](http://blog.minghuiyang1998.com/20220503002531.png)
 
+
 ### Employment
 
+- General
+
+  - In almost all of the states, most of the employees are Private Wage and Salary Workers.
+
+- Typical patterns
+
+  Here we summarize some typical trend patterns.
+
+  - In some states such as Arizona (AZ), the total number of employees generally rised, despite a few transient descends:
+
+    ![employment arizona](./png/employment_arizona.png)
+
+  - In some states such as Florida (FL), the numbers of all the four types of employees kept fluctuating during 2005-2019:
+
+    ![employment colorado](./png/employment_colorado.png)
+
+  - The numbers of employees of some states have obvious peaks. For example, the number of Private Wage and Salary Workers in Kentucky has two peaks (2009 and 2017):
+
+    ![employment kentucky](./png/employment_kentucky.png)
+
+
 ### Poverty
+
+
 
 ## Reproduce Instruction
 
