@@ -8,7 +8,7 @@ Some of states, the median personal earnings fluctuate among these years.
 
 MA, CA, CT, FL, MI, NJ, NY, PA, TX have a clearing increasing pattern.
 
-Some states such as AZ, CO, CT, MD, NV  have a decreasing  pattern around 2008 to 2012.
+Some states such as AZ, CO, CT, MD, NJ, NV  have a decreasing  pattern around 2008 to 2012.
 
 ## By state
 
