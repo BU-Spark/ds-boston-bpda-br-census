@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="508f340532154a94a702580e49bf97a0" class="chart-container" style="width:775px; height:500px;"></div>
+    <script>
+        var chart_508f340532154a94a702580e49bf97a0 = echarts.init(
+            document.getElementById('508f340532154a94a702580e49bf97a0'), 'white', {renderer: 'canvas'});
+        var option_508f340532154a94a702580e49bf97a0 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "U.S. citizen by naturalization",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "stack": "Total",
+            "data": [
+                [
+                    "2005",
+                    622.0
+                ],
+                [
+                    "2006",
+                    528.0
+                ],
+                [
+                    "2007",
+                    588.0
+                ],
+                [
+                    "2008",
+                    853.0
+                ],
+                [
+                    "2009",
+                    528.0
+                ],
+                [
+                    "2010",
+                    1077.0
+                ],
+                [
+                    "2011",
+                    1423.0
+                ],
+                [
+                    "2012",
+                    1103.0
+                ],
+                [
+                    "2013",
+                    971.0
+                ],
+                [
+                    "2014",
+                    1819.0
+                ],
+                [
+                    "2015",
+                    887.0
+                ],
+                [
+                    "2016",
+                    1306.0
+                ],
+                [
+                    "2017",
+                    445.0
+                ],
+                [
+                    "2018",
+                    1292.0
+                ],
+                [
+                    "2019",
+                    1088.0
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "Not a citizen of the U.S.",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "stack": "Total",
+            "data": [
+                [
+                    "2005",
+                    1537.0
+                ],
+                [
+                    "2006",
+                    2317.0
+                ],
+                [
+                    "2007",
+                    2139.0
+                ],
+                [
+                    "2008",
+                    904.0
+                ],
+                [
+                    "2009",
+                    2199.0
+                ],
+                [
+                    "2010",
+                    2595.0
+                ],
+                [
+                    "2011",
+                    3096.0
+                ],
+                [
+                    "2012",
+                    3460.0
+                ],
+                [
+                    "2013",
+                    1225.0
+                ],
+                [
+                    "2014",
+                    3454.0
+                ],
+                [
+                    "2015",
+                    3612.0
+                ],
+                [
+                    "2016",
+                    4111.0
+                ],
+                [
+                    "2017",
+                    5200.0
+                ],
+                [
+                    "2018",
+                    3821.0
+                ],
+                [
+                    "2019",
+                    5332.0
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.5
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "U.S. citizen by naturalization",
+                "Not a citizen of the U.S."
+            ],
+            "selected": {
+                "U.S. citizen by naturalization": true,
+                "Not a citizen of the U.S.": true
+            },
+            "show": true,
+            "top": 40,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "boundaryGap": false,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": true,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Citizenship Status for Michigan States",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": {
+        "show": true,
+        "type": "slider",
+        "realtime": true,
+        "start": 0,
+        "end": 100,
+        "orient": "horizontal",
+        "zoomLock": false,
+        "filterMode": "filter"
+    },
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "top": 175,
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_508f340532154a94a702580e49bf97a0.setOption(option_508f340532154a94a702580e49bf97a0);
+    </script>
+</body>
+</html>
