@@ -31,6 +31,8 @@ Data are provided by the BPDA, both per year and per State.
 
 There is also a html file ```Team 3 Project Deliverable/directory.html``` that contains all the plots.
 
+See [chart page](directory.html) for charts we plot.
+
 ### Population
 
 <img src="png/Population.png" alt="Population" />
