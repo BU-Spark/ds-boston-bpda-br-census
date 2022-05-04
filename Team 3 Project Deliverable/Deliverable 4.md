@@ -110,10 +110,19 @@ For about 9 states, the number of bachelor’s degrees or higher are always larg
     ![employment kentucky](./png/employment_kentucky.png)
 
 
-### Poverty
+## Poverty
+- Individuals above Poverty
+  - The pattern is same as population. 
+  - MA and FL is the top 2 states which larger than any other states
 
+- Individuals below Poverty
+   - MA and FL is always the top 2 states
+   - Overall, it maintains an upward trend
 
-
+- Not determined
+  - The pattern looks random, and hard to find trend
+  - The amount is increasing in general
+  
 ## Reproduce Instruction
 
 * Use Jupyter Notebook to regenerate graphs. Cells run in sequence and make sure the required dependences are installed properly.
