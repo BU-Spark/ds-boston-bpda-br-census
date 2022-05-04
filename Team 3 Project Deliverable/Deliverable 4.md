@@ -70,6 +70,11 @@ The gender proportion drops a little from 2005 to 2010 then remains the same fro
     
     <img src="png/income-connecticut.png" alt="income-connecticut" style="zoom:30%;" />
     <img src="png/income-nevada.png" alt="income-nevada" style="zoom:30%;" />
+    
+    One explanation for this is looking at the employment status for these states. The sales and Office type is most related to the income in this case. But for some cases, it does not match anymore. So we decide to give 
+    <img src="png/employ_ct.png" alt="employ_NV" style="zoom: 50%;" />
+    <img src="png/employ_NV.png" alt="employ_NV" style="zoom: 50%;" />
+    
 
 ### Education
 
@@ -111,6 +116,6 @@ For about 9 states, the number of bachelor’s degrees or higher are always larg
 
 * Use Jupyter Notebook to regenerate graphs. Cells run in sequence and make sure the required dependences are installed properly.
 
-* The column and row index in the cdv file must be matched.s
+* The column and row index in the cdv file must be matched.
 
 * To generate graph with different sort order, change the ```sort_by``` parameter and re-run the cell.
